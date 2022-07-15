@@ -1,0 +1,189 @@
+# Site
+repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Chatzissavidis Konstantinos
+title: Umschüler als Fachinformatiker für Systemintegration-Didact
+email: kchatzissavidis@gmail.com
+# email_title: Email (Email title override)
+#phone:
+# phone_title: Phone (Phone title override)
+#website: 
+# website_title: Web (Website title override)
+
+# Dark Mode (true/false/never)
+darkmode: true
+
+# Social links
+#twitter_username: 
+#github_username:  jekyll
+#stackoverflow_username: 
+#dribbble_username: 
+facebook_username: Kostantinos Chatzissavidis
+#flickr_username: 
+instagram_username: Konstantinos_xa
+#linkedin_username: jekyll
+#xing_username: jekyll
+#pinterest_username: jekyll
+#youtube_username: jekyll
+#orcid_username: 0000-0000-0000-0000
+#googlescholar_username: D847cGsAAAAJ
+
+# Additional icon links
+# additional_links:
+# - title: Link name
+#   icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+about_title: So sieht es bei mir momentan aus
+about_profile_image: images/Profilbild.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Einige Informationen zu meiner Person und meiner momentanen Situation,
+
+  Ich bin Konstantinos, komme aus Griechenland und bin in München geboren.<br />Momentan mache ich meine Umschulung zum Fachinformatiker für Systemintegration bei Didact kaufmän. Berufsbildungsges. mbH, München.<br />
+  Im Rahmen dieser Maßnahme ist ein 7-monatiges Praktikum vorgesehen.<br />Innerhalb dieses Praktikums soll ich ein Projekt durchführen und dokumentieren, welches ich bei meiner mündlichen Abschlussprüfung präsentieren muss und von der IHK benotet wird.<br />
+  Bisher erlangte Skills während der Umschulung: <br />
+  <mark>Python(Basics)</mark> <mark>C++ (Basics)</mark> <mark>PC-Führerschein</mark> <mark>SQL</mark> <mark>Linux</mark>
+
+
+
+
+
+# You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
+  #   - Lists
+  #   - Tables
+  #   - <a href="google.com">Links</a>
+  #   - Images ![alt text](/images/landscape-trees.jpg "Trees")'
+
+content:
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: Live Lebenslauf
+        #link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        #link_text: Link Text
+        # additional_links:
+        #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #     icon: fab fa-github
+        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #     icon: fab fa-github
+        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        # quote: >
+        #   Short overview of the project (optional)
+        description: | # this will include new lines to allow paragraphs
+         Inspiriert von James Grant, (Modern resume theme) habe ich hier zum ersten Mal versucht, meinen Lebenslauf auf einer Webseite darzustellen
+  - title: Berufserfahrung
+    layout: list 
+    content: 
+      - layout: left
+        title: Münchner Verkehrsgesellschaft mbH   
+        sub_title: Busfahrer 
+        caption: von Juni 2016 - Oktober 2021
+        #link: Link to company (optional)
+        #quote: >
+        #   Münchner Verkehrsgesellschaft mbH Betriebshof
+        description: | # this will include new lines to allow paragraphs
+          Personenbeförderung im Linienverkehr
+      - layout: left
+        title: AKP Personaldienst-<br />leistungen GmbH 
+        sub_title: Busfahrer 
+        caption: von Dezember 2015 - April 2016
+        #link: Link to company (optional)
+        # quote: >
+        #   AKP Personaldienstleistungen GmbH für die Münchner Verkehrsgesellschaft mbH im Betriebshof West
+        description: | # this will include new lines to allow paragraphs
+          Personenbeförderung im Linienverkehr für die<br/>Münchner Verkehrsgesellschaft im Betriebshof West
+      - layout: left
+        title: Wehrdienst in Feres, Griechenland, 31es Übertragungsbataillon 
+        #sub_title: Busfahrer 
+        caption: von September 2014 - July 2015
+        #link: Link to company (optional)
+        # quote: >
+        #   AKP Personaldienstleistungen GmbH für die Münchner Verkehrsgesellschaft mbH im Betriebshof West
+        description: |  #this will include new lines to allow paragraphs 
+          Technische Verantwortung für interne Kommunikation <br />
+          Dienstpläne<br />
+          Telefonzentrale<br />
+          Poststelle<br />
+  - title: Ausbildung
+    layout: list
+    content:
+      - layout: left
+        title: Didact kaufmän. Berufsbildungsges. mbH, München
+        #sub_title: Fachinformatiker für Systemintegration
+        caption: Januar 2022 - jetzt
+        # quote: >
+        #    Fachinformatiker für Systemintegration
+        description: | # this will include new lines to allow paragraphs
+          Fachinformatiker für Systemintegration
+      - layout: top-left
+        title: IIEK Thessaloniki, Griechenland
+        #sub_title: Ausbildung zum Automatisierungstechniker <br />Ausbildung zum Elektriker/Elektroinstallateuer
+        caption: September 2009 - July 2014
+        #quote: >
+        #  Ausbildung zum Automatisierungstechniker <br />Ausbildung zum Elektriker/Elektroinstallateuer
+        description: | # this will include new lines to allow paragraphs
+          Ausbildung zum Automatisierungstechniker <br />Ausbildung zum Elektriker/Elektroinstallateur
+  - title: Etwas mehr über mich
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Ich bin ein fröhlicher Mensch, im Normalfall kannst du mit mir auch über alles lachen, <br/>
+      mir ist es sehr wichtig, eine gute Atmosphöre in meinem Umfeld zu haben.
+      Ich mag es, unter Leuten und in guter Gesellschaft zu sein.<br />
+      In meiner Freizeit gefällt es mir, am PC zu spielen, draußen spazieren zu gehen und ab und zu mir ein neues interessantes Buch zu lesen
+      Ich bin sehr glücklich, neues lernen zu dürfen, was sich auch bei meiner Motivation deutlich bemerkbar macht.<br />
+
+      Einige meiner Charaktereigenschaften: <br />
+      Fröhlich, kommunikativ, teamstark, hilfsbereit. <br />
+      <b>Sprachen:</b><br />
+      Griechisch (Muttersprache)<br />
+      Deutsch (Sehr gute Kenntnisse)<br />
+      Englisch (Gute Kenntnisse)<br />
+      <b>Führerschein:</b> <br />
+      B,C,CE,D,DE
+
+      
+footer_show_references: false
+# references_title: 
+
+# Build settings
+# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
+# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
+
+exclude : [
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules",
+  "vendor/bundle/",
+  "vendor/cache/",
+  "vendor/gems/",
+  "vendor/ruby/",
+  "lib/",
+  "scripts/",
+  "docker-compose.yml",
+  ]
